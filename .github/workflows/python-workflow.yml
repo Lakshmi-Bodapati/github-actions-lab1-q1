@@ -17,6 +17,7 @@ jobs:
 
     - name: Install dependencies
       run: |
-        pip install -r ~/$GITHUB_WORKSPACE/requirements.txt
+        pip install -r $GITHUB_WORKSPACE/requirements.txt
+
 
 
